@@ -1,0 +1,9 @@
+site_name: Medical Diagnostics API
+theme:
+  name: material
+nav:
+ - Home: index.md
+ - Getting Started:
+    - Run Locally: run-locally.md
+    - Run with Docker: run-docker.md
+ - Configuration: configuration.md
