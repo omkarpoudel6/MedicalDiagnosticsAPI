@@ -1,0 +1,31 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders
+venv/
+myenv/
+
+# Environment Variable files
+.env
+.env.*
+
+# Log and temporary files
+*.Log
+*.temporary
+
+# OS-generated system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings (optional but recommended)
+.vscode/
+.idea/
+
+# Docker-related files
+*.pid
+*.temporary*.bak
+docker-compose.override.yml
+
+# Optional: ignore Docker volumes/mounts if persisted locally
+data/
